@@ -98,15 +98,4 @@ const InsuranceDashboard = () => {
   );
 };
 
-const InsuranceDashboard = () => {
-  return (
-    <DashboardLayout>
-      <Routes>
-        <Route index element={<InsuranceHome />} />
-        <Route path="claims" element={<ClaimsPage />} />
-      </Routes>
-    </DashboardLayout>
-  );
-};
-
 export default InsuranceDashboard;
